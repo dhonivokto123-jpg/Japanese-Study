@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1120" width="800" height="1120">
+  <defs>
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Clean Paper Sheet Background -->
+  <rect width="800" height="1120" fill="#F8FAFC" />
+  <rect x="24" y="24" width="752" height="1072" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#card-shadow)" />
+
+  <!-- Sheet Header Bar -->
+  <g transform="translate(48, 52)">
+    <!-- Page Number Badge -->
+    <rect x="0" y="0" width="38" height="38" rx="10" fill="#0F172A" />
+    <text x="19" y="26" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">6</text>
+    
+    <!-- Title -->
+    <text x="54" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" fill="#0F172A" letter-spacing="0.5">Grammar Part 1 - Particles</text>
+    
+    <!-- Red Accent Line -->
+    <line x1="0" y1="48" x2="704" y2="48" stroke="#E2E8F0" stroke-width="1.5" />
+    <circle cx="700" cy="24" r="5" fill="#E11D48" />
+  </g>
+
+  <!-- Diagonal Authentic Watermark -->
+  <g transform="translate(400, 560) rotate(-35)" opacity="0.06">
+    <text text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="96" font-weight="bold" fill="#0F172A" letter-spacing="8">MAKSUD ALAM</text>
+  </g>
+
+  <!-- Content Sections -->
+  
+        <g transform="translate(48, 130)">
+          <circle cx="10" cy="10" r="7" fill="#E11D48" />
+          <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="900" fill="#0F172A">から、まで Particle (থেকে, পর্যন্ত)</text>
+        </g>
+      
+        <g transform="translate(48, 166)">
+          <rect width="704" height="42" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="4" fill="#6366F1" />
+          <text x="34" y="27" font-family="'Courier New', monospace, sans-serif" font-size="16" font-weight="bold" fill="#1E293B">• N1 から N2 まで</text>
+        </g>
+      
+          <text x="52" y="220" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">から অর্থ &apos;থেকে&apos; এবং まで অর্থ &apos;পর্যন্ত&apos;। ৩ ধরনের বাক্যে から、まで ব্যবহার</text>
+        
+          <text x="52" y="244" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">হয়ে থাকে:</text>
+        
+          <g transform="translate(52, 274)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">1. 9じ から 3じ まで べんきょうします。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(৯টা থেকে ৩টা পর্যন্ত লেখাপড়া করি) [সময়]</text>
+          </g>
+        
+          <g transform="translate(52, 334)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">   おおさか から とうきょう まで どのくらい かかりますか。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(ওসাকা থেকে টোকিও পর্যন্ত কতক্ষণ প্রয়োজন) [জায়গা]</text>
+          </g>
+        
+          <g transform="translate(52, 394)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">2. がっこう は 10じ から はじまります。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(বিদ্যালয় ১০টা থেকে শুরু হয়) [আলাদা]</text>
+          </g>
+        
+          <g transform="translate(52, 454)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">   がっこう は 1じ まで あきます。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(বিদ্যালয় ১টা পর্যন্ত খোলা)</text>
+          </g>
+        
+          <g transform="translate(52, 514)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">3. がっこう は 10じ から 1じ まで です。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(বিদ্যালয় ১০টা থেকে ১টা পর্যন্ত) [শুরু ও শেষ]</text>
+          </g>
+        
+          <g transform="translate(52, 574)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">   ひるやすみ は 12じ から 1じ まで です。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(দুপুরের বিরতি ১২টা থেকে ১টা পর্যন্ত)</text>
+          </g>
+        
+        <g transform="translate(48, 658)">
+          <circle cx="10" cy="10" r="7" fill="#E11D48" />
+          <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="900" fill="#0F172A">や...など Particle (এবং...ইত্যাদি)</text>
+        </g>
+      
+          <text x="52" y="694" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">“আমি বাজার থেকে আসতেছিলাম। কেউ একজন বাজারের ব্যাগ দেখে জিজ্ঞেস করলো,</text>
+        
+          <text x="52" y="718" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">কী কিনলেন? উত্তরে বললাম, রুই মাছ এবং ইলিশ মাছ ইত্যাদি কিনেছি”।</text>
+        
+          <text x="52" y="742" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">একাধিক জিনিস নিয়ে কথা বলার পর শেষে &apos;ইত্যাদি&apos; বলার জন্যে や...など</text>
+        
+          <text x="52" y="766" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">ব্যবহার হয়। や অর্থ এবং, など অর্থ ইত্যাদি। と এর সাথে など ব্যবহার করা</text>
+        
+          <text x="52" y="790" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">যাবে না।</text>
+        
+          <g transform="translate(52, 820)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">はこのなか に てがみ や しゃしん が あります。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(বাক্সের ভেতর চিঠি এবং ছবি আছে)</text>
+          </g>
+        
+          <g transform="translate(52, 880)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">はこのなか に てがみ や しゃしん など が あります。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(বাক্সের ভেতর চিঠি এবং ছবি ইত্যাদি আছে)</text>
+          </g>
+        
+
+  <!-- Footer Note (if any) -->
+  
+
+  <!-- Bottom Page Mark -->
+  <g transform="translate(48, 1090)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94A3B8">Nihonova Academy · Japanese Particle Research Center · 助詞学習ガイド</text>
+    <text x="704" y="0" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="bold" fill="#64748B">Page 6 of 7</text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var customFetch = originalFetch ? originalFetch.bind(window) : originalFetch;
+          
+          function patchFetch(target) {
+            if (!target) return;
+            try {
+              Object.defineProperty(target, 'fetch', {
+                get: function() {
+                  return customFetch;
+                },
+                set: function(fn) {
+                  customFetch = fn;
+                },
+                configurable: true,
+                enumerable: true
+              });
+            } catch (err) {
+              // ignore if target cannot be configured
+            }
+          }
+
+          patchFetch(window);
+          if (typeof Window !== 'undefined' && Window.prototype) {
+            patchFetch(Window.prototype);
+          }
+          if (typeof globalThis !== 'undefined' && globalThis !== window) {
+            patchFetch(globalThis);
+          }
+        } catch (e) {
+          // ignore
+        }
+      })();
+    </script>
+    <title>Nihonova Academy - Japanese Learning Platform</title>
+    <meta name="description" content="Modern and interactive Japanese language learning platform featuring JLPT N5 Lessons 1-25 with Vocabulary, Kanji, Grammar, Audio pronunciation, Flashcards, Interactive Quizzes, and Progress Tracking in Bengali & English." />
+    <meta property="og:title" content="Nihonova Academy - Japanese Learning Platform" />
+    <meta property="og:description" content="Modern and interactive Japanese language learning platform featuring JLPT N5 Lessons 1-25 with Vocabulary, Kanji, Grammar, Audio pronunciation, Flashcards, Interactive Quizzes, and Progress Tracking in Bengali & English." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

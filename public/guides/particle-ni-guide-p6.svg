@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1120" width="800" height="1120">
+  <defs>
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Clean Paper Sheet Background -->
+  <rect width="800" height="1120" fill="#F8FAFC" />
+  <rect x="24" y="24" width="752" height="1072" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#card-shadow)" />
+
+  <!-- Sheet Header Bar -->
+  <g transform="translate(48, 52)">
+    <!-- Page Number Badge -->
+    <rect x="0" y="0" width="38" height="38" rx="10" fill="#0F172A" />
+    <text x="19" y="26" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">6</text>
+    
+    <!-- Title -->
+    <text x="54" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" fill="#0F172A" letter-spacing="0.5">Grammar Part 1 - Particles</text>
+    
+    <!-- Red Accent Line -->
+    <line x1="0" y1="48" x2="704" y2="48" stroke="#E2E8F0" stroke-width="1.5" />
+    <circle cx="700" cy="24" r="5" fill="#E11D48" />
+  </g>
+
+  <!-- Diagonal Authentic Watermark -->
+  <g transform="translate(400, 560) rotate(-35)" opacity="0.06">
+    <text text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="96" font-weight="bold" fill="#0F172A" letter-spacing="8">MAKSUD ALAM</text>
+  </g>
+
+  <!-- Content Sections -->
+  
+        <g transform="translate(48, 130)">
+          <rect width="704" height="42" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="4" fill="#6366F1" />
+          <text x="34" y="27" font-family="'Courier New', monospace, sans-serif" font-size="16" font-weight="bold" fill="#1E293B">• Existence Examples with に</text>
+        </g>
+      
+          <g transform="translate(52, 184)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">わたしの へや に つくえ が あります。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(আমার রুমে টেবিল আছে)</text>
+          </g>
+        
+          <g transform="translate(52, 244)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">じむしょ に ミラーさん が います。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(অফিসে মি. মিলার আছে)</text>
+          </g>
+        
+          <g transform="translate(52, 304)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">うけつけ に だれ が いますか。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(রিসিপশন ডেস্কে কে আছে?)</text>
+          </g>
+        
+          <g transform="translate(52, 364)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">ちか に なに が ありますか。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(মাটির নিচের তলায় কী আছে?)</text>
+          </g>
+        
+        <g transform="translate(48, 448)">
+          <rect width="704" height="42" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="4" fill="#6366F1" />
+          <text x="34" y="27" font-family="'Courier New', monospace, sans-serif" font-size="16" font-weight="bold" fill="#1E293B">• Quantifier (Time Period) に + かい Verb (ফ্রিকোয়েন্সি)</text>
+        </g>
+      
+          <text x="52" y="502" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">কোনো সময়ের মধ্যে কতবার একটি কাজ করেছি বা করবো বলার ক্ষেত্রে Time</text>
+        
+          <text x="52" y="526" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">period এর পর に Particle বসে।</text>
+        
+          <g transform="translate(52, 556)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">いっかげつ に 4かい テニス を します。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(এক মাসের মধ্যে ৪ বার টেনিস খেলি)</text>
+          </g>
+        
+          <g transform="translate(52, 616)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">いっしゅうかん に 1かい テニス を します。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(এক সপ্তাহের মধ্যে ১ বার টেনিস খেলি)</text>
+          </g>
+        
+        <g transform="translate(48, 700)">
+          <rect width="704" height="42" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="4" fill="#6366F1" />
+          <text x="34" y="27" font-family="'Courier New', monospace, sans-serif" font-size="16" font-weight="bold" fill="#1E293B">• Place + へ + Stem + に + いきます/きます/かえります (উদ্দেশ্য)</text>
+        </g>
+      
+          <text x="52" y="754" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">কোনো স্থানে কোনো কাজের জন্য যাওয়া, আসা, ফিরে আসা বলার ক্ষেত্রে যে</text>
+        
+          <text x="52" y="778" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">কাজটি করতে যাবো তার Verb Stem + に Particle বসে। (Note: ます বাদ দিয়ে</text>
+        
+          <text x="52" y="802" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">যা থাকে তাই Stem)</text>
+        
+          <g transform="translate(52, 832)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">わたし は にほん へ べんきょうし に いきます。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(আমি জাপানে লেখাপড়া করতে যাবো)</text>
+          </g>
+        
+          <g transform="translate(52, 892)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">こうべ へ インド りょうり を たべ に きました。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(কোবেতে ভারতীয় খাবার খাওয়ার জন্য এসেছি)</text>
+          </g>
+        
+
+  <!-- Footer Note (if any) -->
+  
+
+  <!-- Bottom Page Mark -->
+  <g transform="translate(48, 1090)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94A3B8">Nihonova Academy · Japanese Particle Research Center · 助詞学習ガイド</text>
+    <text x="704" y="0" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="bold" fill="#64748B">Page 6 of 7</text>
+  </g>
+</svg>

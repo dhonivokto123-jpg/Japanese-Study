@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1120" width="800" height="1120">
+  <defs>
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Clean Paper Sheet Background -->
+  <rect width="800" height="1120" fill="#F8FAFC" />
+  <rect x="24" y="24" width="752" height="1072" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#card-shadow)" />
+
+  <!-- Sheet Header Bar -->
+  <g transform="translate(48, 52)">
+    <!-- Page Number Badge -->
+    <rect x="0" y="0" width="38" height="38" rx="10" fill="#0F172A" />
+    <text x="19" y="26" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">1</text>
+    
+    <!-- Title -->
+    <text x="54" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" fill="#0F172A" letter-spacing="0.5">Grammar Part 1 - Particles</text>
+    
+    <!-- Red Accent Line -->
+    <line x1="0" y1="48" x2="704" y2="48" stroke="#E2E8F0" stroke-width="1.5" />
+    <circle cx="700" cy="24" r="5" fill="#E11D48" />
+  </g>
+
+  <!-- Diagonal Authentic Watermark -->
+  <g transform="translate(400, 560) rotate(-35)" opacity="0.06">
+    <text text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="96" font-weight="bold" fill="#0F172A" letter-spacing="8">MAKSUD ALAM</text>
+  </g>
+
+  <!-- Content Sections -->
+  
+        <g transform="translate(48, 130)">
+          <circle cx="10" cy="10" r="7" fill="#E11D48" />
+          <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="900" fill="#0F172A">で Particles (দ্বারা / দিয়ে)</text>
+        </g>
+      
+        <g transform="translate(48, 166)">
+          <rect width="704" height="42" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="4" fill="#6366F1" />
+          <text x="34" y="27" font-family="'Courier New', monospace, sans-serif" font-size="16" font-weight="bold" fill="#1E293B">• Vehicle で いきます/きます/かえります。</text>
+        </g>
+      
+          <text x="52" y="220" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">কোনো যানবাহনের মাধ্যমে কোথাও যাওয়া, আসা, ফিরে আসা বোঝানোর ক্ষেত্রে</text>
+        
+          <text x="52" y="244" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">যানবাহনের পর で Particle বসে।</text>
+        
+          <g transform="translate(52, 274)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">まいにち じてんしゃ で がっこう へ いきます。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(প্রতিদিন সাইকেল দিয়ে স্কুলে যাই)</text>
+          </g>
+        
+          <g transform="translate(52, 334)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">ひこうき で にほん へ きました。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(উড়োজাহাজ দিয়ে জাপান এসেছি)</text>
+          </g>
+        
+          <g transform="translate(52, 394)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">バス で うち へ かえりました。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(বাস দিয়ে বাড়ি ফিরে এসেছি)</text>
+          </g>
+        
+        <g transform="translate(48, 478)">
+          <rect width="704" height="42" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="4" fill="#6366F1" />
+          <text x="34" y="27" font-family="'Courier New', monospace, sans-serif" font-size="16" font-weight="bold" fill="#1E293B">• Place で Verb (কাজের স্থান)</text>
+        </g>
+      
+          <text x="52" y="532" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">কোনো জায়গার মধ্যে, দিয়ে, হতে কোনো কার্য সম্পাদন করলে, যে জায়গায়</text>
+        
+          <text x="52" y="556" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">কার্য সম্পাদন হয় তারপরে で Particle বসে।</text>
+        
+          <g transform="translate(52, 586)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">えき で しんぶん を かいました。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(স্টেশন থেকে খবরের কাগজ কিনেছি)</text>
+          </g>
+        
+          <g transform="translate(52, 646)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">レストラン で ひるごはん を たべます。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(রেস্তোরাঁয় দুপুরের খাবার খাবো)</text>
+          </g>
+        
+          <g transform="translate(52, 706)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">デパート で かいもの に いきました。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(ডিপার্টমেন্টাল স্টোরে কেনাকাটা করার জন্য গিয়েছিলাম)</text>
+          </g>
+        
+          <g transform="translate(52, 766)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">えき の ちかく で ともだち に あいます。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(স্টেশনের কাছে বন্ধুর সাথে দেখা করবো)</text>
+          </g>
+        
+
+  <!-- Footer Note (if any) -->
+  
+
+  <!-- Bottom Page Mark -->
+  <g transform="translate(48, 1090)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94A3B8">Nihonova Academy · Japanese Particle Research Center · 助詞学習ガイド</text>
+    <text x="704" y="0" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="bold" fill="#64748B">Page 1 of 7</text>
+  </g>
+</svg>

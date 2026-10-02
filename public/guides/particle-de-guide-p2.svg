@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1120" width="800" height="1120">
+  <defs>
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Clean Paper Sheet Background -->
+  <rect width="800" height="1120" fill="#F8FAFC" />
+  <rect x="24" y="24" width="752" height="1072" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#card-shadow)" />
+
+  <!-- Sheet Header Bar -->
+  <g transform="translate(48, 52)">
+    <!-- Page Number Badge -->
+    <rect x="0" y="0" width="38" height="38" rx="10" fill="#0F172A" />
+    <text x="19" y="26" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">2</text>
+    
+    <!-- Title -->
+    <text x="54" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" fill="#0F172A" letter-spacing="0.5">Grammar Part 1 - Particles</text>
+    
+    <!-- Red Accent Line -->
+    <line x1="0" y1="48" x2="704" y2="48" stroke="#E2E8F0" stroke-width="1.5" />
+    <circle cx="700" cy="24" r="5" fill="#E11D48" />
+  </g>
+
+  <!-- Diagonal Authentic Watermark -->
+  <g transform="translate(400, 560) rotate(-35)" opacity="0.06">
+    <text text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="96" font-weight="bold" fill="#0F172A" letter-spacing="8">MAKSUD ALAM</text>
+  </g>
+
+  <!-- Content Sections -->
+  
+        <g transform="translate(48, 130)">
+          <rect width="704" height="42" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="4" fill="#6366F1" />
+          <text x="34" y="27" font-family="'Courier New', monospace, sans-serif" font-size="16" font-weight="bold" fill="#1E293B">• N(Tool/Means) で Verb</text>
+        </g>
+      
+          <text x="52" y="184" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">কোনো বস্তু বা মাধ্যম দ্বারা কার্য সম্পাদন হলে, বস্তু বা মাধ্যমের পর</text>
+        
+          <text x="52" y="208" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">で Particle বসে। এখানে মাধ্যম বলতে ভাষাকেও বোঝানো হয়েছে।</text>
+        
+          <g transform="translate(52, 238)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">はし で ごはん を たべます。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(চপস্টিক দিয়ে ভাত খাবো)</text>
+          </g>
+        
+          <g transform="translate(52, 298)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">ボールペン で なまえ を かきました。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(বলপেন দিয়ে নাম লিখেছি)</text>
+          </g>
+        
+          <g transform="translate(52, 358)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">にほんご で てがみ を かきます。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(জাপানি ভাষায় চিঠি লিখবো) [মাধ্যম]</text>
+          </g>
+        
+          <g transform="translate(52, 418)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">かんじ で なまえ を かきます。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(কাঞ্জি দিয়ে নাম লিখুন)</text>
+          </g>
+        
+        <g transform="translate(48, 502)">
+          <rect width="704" height="42" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="4" fill="#6366F1" />
+          <text x="34" y="27" font-family="'Courier New', monospace, sans-serif" font-size="16" font-weight="bold" fill="#1E293B">• ~で ~を つくります (উপকরণ / Material)</text>
+        </g>
+      
+          <text x="52" y="556" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">কোনো খাবার জাতীয় জিনিস অথবা ছোট ছোট আসবাবপত্র দিয়ে পূর্ণাঙ্গ খাবার</text>
+        
+          <text x="52" y="580" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">বা বস্তু তৈরি করা হলে, কাঁচামাল বা উপকরণের পর で Particle বসে।</text>
+        
+          <g transform="translate(52, 610)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">たまご と さとう で おかし を つくりました。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(ডিম এবং চিনি দিয়ে মিষ্টি জাতীয় খাবার তৈরি করেছি)</text>
+          </g>
+        
+          <g transform="translate(52, 670)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">にく と やさい で りょうり を つくりました。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(মাংস এবং শাকসবজি দিয়ে খাবার রান্না করেছিলাম)</text>
+          </g>
+        
+          <g transform="translate(52, 730)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">き で つくえ や いす を つくります。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(কাঠ দিয়ে টেবিল এবং চেয়ার তৈরি করবো)</text>
+          </g>
+        
+        <g transform="translate(48, 814)">
+          <rect width="704" height="42" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="4" fill="#6366F1" />
+          <text x="34" y="27" font-family="'Courier New', monospace, sans-serif" font-size="16" font-weight="bold" fill="#1E293B">• な-Adjective [な] で... / Noun で... (এবং / সেজন্য)</text>
+        </g>
+      
+          <text x="52" y="868" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">একাধিক な-Adjective যোগ করে একটি বাক্য গঠন করার সময় な-Adjective এর な</text>
+        
+          <text x="52" y="892" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">বাদ দিয়ে で (এবং/সেজন্য) অর্থে বসে।</text>
+        
+
+  <!-- Footer Note (if any) -->
+  
+
+  <!-- Bottom Page Mark -->
+  <g transform="translate(48, 1090)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94A3B8">Nihonova Academy · Japanese Particle Research Center · 助詞学習ガイド</text>
+    <text x="704" y="0" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="bold" fill="#64748B">Page 2 of 7</text>
+  </g>
+</svg>

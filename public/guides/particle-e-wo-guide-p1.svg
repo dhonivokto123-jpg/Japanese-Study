@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1120" width="800" height="1120">
+  <defs>
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Clean Paper Sheet Background -->
+  <rect width="800" height="1120" fill="#F8FAFC" />
+  <rect x="24" y="24" width="752" height="1072" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#card-shadow)" />
+
+  <!-- Sheet Header Bar -->
+  <g transform="translate(48, 52)">
+    <!-- Page Number Badge -->
+    <rect x="0" y="0" width="38" height="38" rx="10" fill="#0F172A" />
+    <text x="19" y="26" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">1</text>
+    
+    <!-- Title -->
+    <text x="54" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" fill="#0F172A" letter-spacing="0.5">Grammar Part 1 - Particles</text>
+    
+    <!-- Red Accent Line -->
+    <line x1="0" y1="48" x2="704" y2="48" stroke="#E2E8F0" stroke-width="1.5" />
+    <circle cx="700" cy="24" r="5" fill="#E11D48" />
+  </g>
+
+  <!-- Diagonal Authentic Watermark -->
+  <g transform="translate(400, 560) rotate(-35)" opacity="0.06">
+    <text text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="96" font-weight="bold" fill="#0F172A" letter-spacing="8">MAKSUD ALAM</text>
+  </g>
+
+  <!-- Content Sections -->
+  
+        <g transform="translate(48, 130)">
+          <circle cx="10" cy="10" r="7" fill="#E11D48" />
+          <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="900" fill="#0F172A">‘へ’ Particles</text>
+        </g>
+      
+        <g transform="translate(48, 166)">
+          <rect width="704" height="42" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="4" fill="#6366F1" />
+          <text x="34" y="27" font-family="'Courier New', monospace, sans-serif" font-size="16" font-weight="bold" fill="#1E293B">• Place + へ (に) + いきます/きます/かえります。</text>
+        </g>
+      
+          <text x="52" y="220" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">কোনো স্থানে যাওয়া, আসা, ফিরে আসা বলার সময় স্থানের পর へ বা に Particle</text>
+        
+          <text x="52" y="244" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">বসে। অর্থাৎ, いきます/きます/かえります Verb এর আগে যদি স্থান থাকে, তাহলে</text>
+        
+          <text x="52" y="268" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">স্থানের পরে へ Particle বসতে পারে, に Particle ও বসতে পারে।</text>
+        
+          <g transform="translate(52, 298)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">がっこう へ / に いきます。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(স্কুলে যাবো)</text>
+          </g>
+        
+          <g transform="translate(52, 358)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">にほん へ / に きました。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(জাপানে এসেছি)</text>
+          </g>
+        
+          <g transform="translate(52, 418)">
+            <rect width="696" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="14" y="24" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">うち へ / に かえります。</text>
+            <text x="14" y="44" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13" fill="#475569">(বাসায় ফিরে আসবো)</text>
+          </g>
+        
+          <text x="54" y="484" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="13.5" fill="#64748B" font-style="italic">Note: かえります Verb শুধু দেশে এবং বাসায় ফিরে আসার ক্ষেত্রে ব্যবহার হয়ে থাকে।</text>
+        
+        <g transform="translate(48, 532)">
+          <circle cx="10" cy="10" r="7" fill="#E11D48" />
+          <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="900" fill="#0F172A">を Particles</text>
+        </g>
+      
+        <g transform="translate(48, 568)">
+          <rect width="704" height="42" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="4" fill="#6366F1" />
+          <text x="34" y="27" font-family="'Courier New', monospace, sans-serif" font-size="16" font-weight="bold" fill="#1E293B">• Noun を Verb (Transitive Direct Object)</text>
+        </g>
+      
+          <text x="52" y="622" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">Transitive Verb নিয়ে যখন বাক্য গঠন করা হয়, তখন Object এর পর を</text>
+        
+          <text x="52" y="646" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">Particle বসে। Transitive Verb: ১. বাক্যে Sub + Obj + Verb তিনটাই</text>
+        
+          <text x="52" y="670" font-family="'SolaimanLipi', 'Kalpurush', 'Hind Siliguri', sans-serif" font-size="15" fill="#334155" font-weight="500">থাকে। ২. ব্যক্তি বা প্রাণী কোনো বস্তু নিয়ে কাজ সম্পাদন করে।</text>
+        
+
+  <!-- Footer Note (if any) -->
+  
+
+  <!-- Bottom Page Mark -->
+  <g transform="translate(48, 1090)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94A3B8">Nihonova Academy · Japanese Particle Research Center · 助詞学習ガイド</text>
+    <text x="704" y="0" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="bold" fill="#64748B">Page 1 of 7</text>
+  </g>
+</svg>

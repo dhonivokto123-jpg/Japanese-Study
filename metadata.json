@@ -1,0 +1,6 @@
+{
+  "name": "Nihonova Academy - Japanese Learning Platform",
+  "description": "Modern and interactive Japanese language learning platform featuring JLPT N5 Lessons 1-25 with Vocabulary, Kanji, Grammar, Audio pronunciation, Flashcards, Interactive Quizzes, and Progress Tracking in Bengali & English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
